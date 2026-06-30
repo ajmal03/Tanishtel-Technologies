@@ -677,59 +677,96 @@
                             <h2 class="mt-3 font-display text-3xl md:text-5xl font-extrabold text-navy leading-tight">Frequently asked questions</h2>
                         </div>
                         <div class="mt-12 space-y-3">
-                            <div class="rounded-2xl border bg-white transition-all border-teal/40 shadow-soft">
+                            <div class="faq-panel rounded-2xl border bg-white transition-all border-teal/40 shadow-soft">
                                 <button class="w-full flex items-center justify-between gap-4 px-6 py-5 text-left" aria-expanded="true">
                                     <span class="font-display text-base md:text-lg font-bold text-navy">Is the system suitable for both schools and hostels?</span>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-minus h-5 w-5 text-teal flex-shrink-0" aria-hidden="true">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-plus h-5 w-5 text-teal flex-shrink-0 faq-icon" aria-hidden="true">
                                         <circle cx="12" cy="12" r="10"></circle>
-                                        <path d="M8 12h8"></path>
+                                        <path class="faq-minus" d="M8 12h8"></path>
+                                        <path class="faq-plus" d="M12 8v8"></path>
                                     </svg>
                                 </button>
-                                <div class="px-6 pb-6 -mt-1 text-sm text-muted-foreground leading-relaxed animate-fade-up">Yes. Tanishtel smart payphones are deployed across residential schools, colleges, hostels and hospital campuses with custom configuration for each environment.</div>
+                                <div class="faq-content px-6 pb-6 -mt-1 text-sm text-muted-foreground leading-relaxed animate-fade-up">Yes. Tanishtel smart payphones are deployed across residential schools, colleges, hostels and hospital campuses with custom configuration for each environment.</div>
                             </div>
-                            <div class="rounded-2xl border bg-white transition-all border-border">
+                            <div class="faq-panel rounded-2xl border bg-white transition-all border-border">
                                 <button class="w-full flex items-center justify-between gap-4 px-6 py-5 text-left" aria-expanded="false">
                                     <span class="font-display text-base md:text-lg font-bold text-navy">Can students call any number?</span>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-plus h-5 w-5 text-muted-foreground flex-shrink-0" aria-hidden="true">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-plus h-5 w-5 text-muted-foreground flex-shrink-0 faq-icon" aria-hidden="true">
                                         <circle cx="12" cy="12" r="10"></circle>
-                                        <path d="M8 12h8"></path>
-                                        <path d="M12 8v8"></path>
+                                        <path class="faq-minus" d="M8 12h8"></path>
+                                        <path class="faq-plus" d="M12 8v8"></path>
                                     </svg>
                                 </button>
+                                <div class="faq-content px-6 pb-6 -mt-1 text-sm text-muted-foreground leading-relaxed animate-fade-up hidden">Calls are allowed to approved contact numbers and emergency services only, as per institutional policy.</div>
                             </div>
-                            <div class="rounded-2xl border bg-white transition-all border-border">
+                            <div class="faq-panel rounded-2xl border bg-white transition-all border-border">
                                 <button class="w-full flex items-center justify-between gap-4 px-6 py-5 text-left" aria-expanded="false">
                                     <span class="font-display text-base md:text-lg font-bold text-navy">How long does installation take?</span>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-plus h-5 w-5 text-muted-foreground flex-shrink-0" aria-hidden="true">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-plus h-5 w-5 text-muted-foreground flex-shrink-0 faq-icon" aria-hidden="true">
                                         <circle cx="12" cy="12" r="10"></circle>
-                                        <path d="M8 12h8"></path>
-                                        <path d="M12 8v8"></path>
+                                        <path class="faq-minus" d="M8 12h8"></path>
+                                        <path class="faq-plus" d="M12 8v8"></path>
                                     </svg>
                                 </button>
+                                <div class="faq-content px-6 pb-6 -mt-1 text-sm text-muted-foreground leading-relaxed animate-fade-up hidden">Installation typically takes 3–5 days depending on the number of devices and site readiness.</div>
                             </div>
-                            <div class="rounded-2xl border bg-white transition-all border-border">
+                            <div class="faq-panel rounded-2xl border bg-white transition-all border-border">
                                 <button class="w-full flex items-center justify-between gap-4 px-6 py-5 text-left" aria-expanded="false">
                                     <span class="font-display text-base md:text-lg font-bold text-navy">What happens if a device has an issue?</span>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-plus h-5 w-5 text-muted-foreground flex-shrink-0" aria-hidden="true">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-plus h-5 w-5 text-muted-foreground flex-shrink-0 faq-icon" aria-hidden="true">
                                         <circle cx="12" cy="12" r="10"></circle>
-                                        <path d="M8 12h8"></path>
-                                        <path d="M12 8v8"></path>
+                                        <path class="faq-minus" d="M8 12h8"></path>
+                                        <path class="faq-plus" d="M12 8v8"></path>
                                     </svg>
                                 </button>
+                                <div class="faq-content px-6 pb-6 -mt-1 text-sm text-muted-foreground leading-relaxed animate-fade-up hidden">Our support team responds immediately, troubleshooting remotely and dispatching technicians for on-site repair if needed.</div>
                             </div>
-                            <div class="rounded-2xl border bg-white transition-all border-border">
+                            <div class="faq-panel rounded-2xl border bg-white transition-all border-border">
                                 <button class="w-full flex items-center justify-between gap-4 px-6 py-5 text-left" aria-expanded="false">
                                     <span class="font-display text-base md:text-lg font-bold text-navy">Is the billing model transparent?</span>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-plus h-5 w-5 text-muted-foreground flex-shrink-0" aria-hidden="true">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-plus h-5 w-5 text-muted-foreground flex-shrink-0 faq-icon" aria-hidden="true">
                                         <circle cx="12" cy="12" r="10"></circle>
-                                        <path d="M8 12h8"></path>
-                                        <path d="M12 8v8"></path>
+                                        <path class="faq-minus" d="M8 12h8"></path>
+                                        <path class="faq-plus" d="M12 8v8"></path>
                                     </svg>
                                 </button>
+                                <div class="faq-content px-6 pb-6 -mt-1 text-sm text-muted-foreground leading-relaxed animate-fade-up hidden">Yes. We provide clear, itemized pricing with no hidden fees and regular usage summaries.</div>
                             </div>
                         </div>
                     </div>
                 </section>
+                <script>
+                    (function() {
+                        const buttons = document.querySelectorAll('.faq-panel button');
+                        buttons.forEach((button) => {
+                            const content = button.parentElement.querySelector('.faq-content');
+                            const icon = button.querySelector('.faq-icon');
+                            const plusPath = icon?.querySelector('.faq-plus');
+                            const minusPath = icon?.querySelector('.faq-minus');
+                            const setState = (expanded) => {
+                                button.setAttribute('aria-expanded', String(expanded));
+                                if (content) {
+                                    content.hidden = !expanded;
+                                    content.classList.toggle('hidden', !expanded);
+                                }
+                                if (plusPath) {
+                                    plusPath.style.display = expanded ? 'none' : 'block';
+                                }
+                                if (minusPath) {
+                                    minusPath.style.display = expanded ? 'block' : 'none';
+                                }
+                                if (icon) {
+                                    icon.classList.toggle('text-teal', expanded);
+                                    icon.classList.toggle('text-muted-foreground', !expanded);
+                                }
+                            };
+                            setState(button.getAttribute('aria-expanded') === 'true');
+                            button.addEventListener('click', () => {
+                                setState(button.getAttribute('aria-expanded') !== 'true');
+                            });
+                        });
+                    })();
+                </script>
                 <section class="mx-auto max-w-7xl container-px py-24">
                     <div class="relative overflow-hidden rounded-3xl bg-hero-gradient p-10 md:p-16 text-white shadow-soft">
                         <div class="absolute -right-24 -top-24 h-72 w-72 rounded-full bg-teal/30 blur-3xl"></div>
