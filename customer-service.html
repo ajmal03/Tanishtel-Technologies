@@ -4,6 +4,8 @@
     <meta charSet="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="preload" as="image" href="log-1/logo-1/tanishtel-logo.jpeg" />
+            <link rel="icon" type="image/jpeg" href="log-1/logo-1/tanishtel-logo.jpeg"/>
+        <link rel="apple-touch-icon" href="log-1/logo-1/tanishtel-logo.jpeg"/>
     <link rel="stylesheet" href="assets/styles-CMs9_gQL.css" data-precedence="default" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@600;700;800&amp;display=swap" data-precedence="default" />
     <title>Customer Service — Tanishtel</title>
@@ -203,15 +205,15 @@
           <a href="/" class="flex items-center gap-2.5 group">
             <div class="relative">
               <div class="absolute inset-0 rounded-xl bg-teal/30 blur-md opacity-0 group-hover:opacity-100 transition-opacity"></div>
-              <img src="log-1/logo-1/tanishtel-logo.jpeg" alt="Tanishtel" class="relative h-9 w-9 sm:h-10 sm:w-10 rounded-lg object-contain ring-1 ring-border bg-white" width="40" height="40" />
+              <img src="log-1/logo-1/logo.png" alt="Tanishtel" class="relative h-10 w-10 sm:h-12 sm:w-12 rounded-lg object-contain" style="width:100px;height:auto;" width="100" />
             </div>
-            <div class="flex flex-col leading-none">
+            <!-- <div class="flex flex-col leading-none">
               <span class="font-display text-[13px] sm:text-base font-extrabold tracking-tight whitespace-nowrap">
                 <span class="text-teal">Tanish</span>
                 <span class="text-navy">tel</span>
               </span>
               <span class="hidden sm:block text-[10px] font-medium uppercase tracking-[0.14em] text-muted-foreground">Technologies Pvt Ltd</span>
-            </div>
+            </div> -->
           </a>
           <nav class="hidden lg:flex items-center gap-1">
             <a href="index.html" class="relative px-3 py-2 text-sm font-medium text-muted-foreground rounded-md transition-colors hover:text-navy hover:bg-secondary/60">Home</a>
@@ -234,13 +236,28 @@
               </svg>
             </a>
           </div>
-          <button class="lg:hidden rounded-md p-2 text-navy" aria-label="Toggle menu">
+          <button class="lg:hidden rounded-md p-2 text-navy" type="button" aria-label="Toggle menu" aria-controls="site-mobile-menu" aria-expanded="false" data-mobile-menu-button>
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu h-6 w-6" aria-hidden="true">
               <path d="M4 5h16"></path>
               <path d="M4 12h16"></path>
               <path d="M4 19h16"></path>
             </svg>
           </button>
+        </div>
+        <div id="site-mobile-menu" class="hidden lg:hidden border-t border-border bg-background/95 backdrop-blur-md" data-mobile-menu>
+          <div class="mx-auto max-w-7xl container-px py-4 flex flex-col gap-1.5">
+            <a href="index.html" class="rounded-md px-3 py-2.5 text-sm font-medium text-muted-foreground hover:bg-secondary">Home</a>
+            <a href="about.html" class="rounded-md px-3 py-2.5 text-sm font-medium text-muted-foreground hover:bg-secondary">About</a>
+            <a href="product.html" class="rounded-md px-3 py-2.5 text-sm font-medium text-muted-foreground hover:bg-secondary">Product</a>
+            <a href="features.html" class="rounded-md px-3 py-2.5 text-sm font-medium text-muted-foreground hover:bg-secondary">Features</a>
+            <a href="installation.html" class="rounded-md px-3 py-2.5 text-sm font-medium text-muted-foreground hover:bg-secondary">Installation</a>
+            <a href="customer-service.html" class="rounded-md px-3 py-2.5 text-sm font-medium text-navy bg-secondary">Support</a>
+            <a href="contact.html" class="rounded-md px-3 py-2.5 text-sm font-medium text-muted-foreground hover:bg-secondary">Contact</a>
+            <div class="mt-3 flex gap-2">
+              <a href="https://wa.me/917222822250" target="_blank" rel="noopener noreferrer" class="flex-1 inline-flex items-center justify-center rounded-full bg-[#25D366] px-4 py-2.5 text-sm font-semibold text-white">WhatsApp</a>
+              <a href="contact.html" class="flex-1 inline-flex items-center justify-center rounded-full bg-navy px-4 py-2.5 text-sm font-semibold text-white">Book Demo</a>
+            </div>
+          </div>
         </div>
       </header>
       <main class="flex-1">
@@ -340,10 +357,10 @@
               <path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"></path>
             </svg>
           </a>
-          <a href="mailto:tanishteltechnologies@gmail.com" class="group flex items-center justify-between rounded-3xl bg-teal-gradient text-white p-8 shadow-soft hover:opacity-95">
+          <a href="mailto:info@tanishtel.in" class="group flex items-center justify-between rounded-3xl bg-teal-gradient text-white p-8 shadow-soft hover:opacity-95">
             <div>
               <div class="text-xs uppercase tracking-wider opacity-80">Email us</div>
-              <div class="mt-1 text-xl md:text-2xl font-bold break-all">tanishteltechnologies@gmail.com</div>
+              <div class="mt-1 text-xl md:text-2xl font-bold break-all">info@tanishtel.in</div>
               <p class="mt-1 text-sm text-white/85">We respond within one business day</p>
             </div>
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail h-10 w-10 transition-transform group-hover:rotate-12" aria-hidden="true">
@@ -438,7 +455,7 @@
           <div>
             <div class="flex items-center gap-2.5 mb-4">
               <img src="log-1/logo-1/tanishtel-logo.jpeg" alt="Tanishtel" class="h-10 w-10 bg-white rounded-md p-1" width="40" height="40" />
-              <span class="font-display text-lg font-bold">Tanishtel Technologies </span>
+              <span class="font-display text-lg font-bold">Tanishtel Technologies</span>
             </div>
             <p class="text-sm text-white/70 leading-relaxed">Smart • Secure • Seamless Calling Solutions for residential schools, hostels and institutions.</p>
             <div class="flex gap-3 mt-5">
@@ -509,7 +526,7 @@
                   <path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path>
                   <rect x="2" y="4" width="20" height="16" rx="2"></rect>
                 </svg>
-                <a href="mailto:tanishteltechnologies@gmail.com" class="hover:text-teal break-all">tanishteltechnologies@gmail.com</a>
+                <a href="mailto:info@tanishtel.in" class="hover:text-teal break-all">info@tanishtel.in</a>
               </li>
               <li class="flex gap-2">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-globe h-4 w-4 mt-0.5 text-teal flex-shrink-0" aria-hidden="true">
@@ -551,7 +568,7 @@
           <div class="mx-auto max-w-7xl container-px py-5 flex flex-col md:flex-row items-center justify-between gap-2 text-xs text-white/60">
             <p>©
               <!-- -->2026
-              <!-- --> Tanishtel Technologies . All rights reserved.
+              <!-- --> Tanishtel Technologies. All rights reserved.
             </p>
             <p>Smart • Secure • Seamless</p>
           </div>
@@ -614,7 +631,42 @@
       import("assets/index-DgpfcLXx.js")
     </script>
     <script src="https://cdn.gpteng.co/lovable.js" type="module"></script>
-    <aside id="lovable-badge" role="complementary" dir="ltr" lang="en" aria-label="Edit with Lovable">
+    <script>
+      (() => {
+        const button = document.querySelector('[data-mobile-menu-button]');
+        const menu = document.querySelector('[data-mobile-menu]');
+        if (!button || !menu) {
+          return;
+        }
+
+        const setOpen = (open) => {
+          menu.hidden = !open;
+          menu.classList.toggle('hidden', !open);
+          button.setAttribute('aria-expanded', String(open));
+          document.body.classList.toggle('overflow-hidden', open);
+        };
+
+        setOpen(false);
+        button.addEventListener('click', () => setOpen(menu.hidden));
+        menu.querySelectorAll('a').forEach((link) => link.addEventListener('click', () => setOpen(false)));
+        document.addEventListener('click', (event) => {
+          if (!menu.hidden && !menu.contains(event.target) && !button.contains(event.target)) {
+            setOpen(false);
+          }
+        });
+        document.addEventListener('keydown', (event) => {
+          if (event.key === 'Escape') {
+            setOpen(false);
+          }
+        });
+        window.addEventListener('resize', () => {
+          if (window.innerWidth >= 1024) {
+            setOpen(false);
+          }
+        });
+      })();
+    </script>
+    <!-- <aside id="lovable-badge" role="complementary" dir="ltr" lang="en" aria-label="Edit with Lovable">
       <a id="lovable-badge-cta" target="_blank" href="https://lovable.dev/projects/99c566d7-4d85-450f-9555-e1f858c185e8?utm_source=lovable-badge" rel="noopener nofollow" aria-label="Edit with Lovable">
         <span id="lovable-badge-text">Edit with</span>
         <svg xmlns="http://www.w3.org/2000/svg" width="52" height="16" fill="none" viewBox="0 0 52 16">
@@ -637,7 +689,7 @@
           <path d="M10.646 4.646a.5.5 0 1 1 .707.708L8.707 8l2.646 2.646a.5.5 0 1 1-.707.707L8 8.707l-2.646 2.646a.5.5 0 1 1-.708-.707L7.293 8 4.646 5.354a.5.5 0 1 1 .708-.708L8 7.293l2.646-2.647Z" />
         </svg>
       </button>
-    </aside>
+    </aside> -->
     <script>
       // Don't show the lovable-badge if the page is in an iframe or if it's being rendered by puppeteer (screenshot service)
       if (window.self !== window.top || navigator.userAgent.includes('puppeteer')) {
